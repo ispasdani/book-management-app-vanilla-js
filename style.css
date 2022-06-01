@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f3f4;
+}
+
+.homepage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.book-app-container {
+  width: 500px;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-left: 25px solid #cb997e;
+  border-right: 5px solid #cb997e;
+  border-top: 1px solid #cb997e;
+  border-bottom: 1px solid #cb997e;
+  padding: 30px 0px;
+  margin-top: 30px;
+  background-color: #ddbea9;
+}
+
+.app-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.app-title h1 {
+  font-size: 50px;
+  color: #f6f2ef;
+}
+
+.app-title h1 span {
+  color: #656d4a;
+  margin-left: 5px;
+  letter-spacing: 2px;
+}
+
+.title-icon {
+  width: 50px;
+}
+
+.book-form {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.book-form label {
+  font-size: 20px;
+  align-self: flex-start;
+  color: #74903c;
+  font-weight: bold;
+}
+
+.book-form input {
+  width: 400px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 0px 5px;
+  border-radius: 5px;
+  background-color: #f6f2ef;
+}
+
+.form-group {
+  width: 80%;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-btn {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: #6a994e;
+  color: #f6f2ef;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+
+.form-btn:hover {
+  transform: scale(1.1);
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  height: auto;
+}
+
+thead tr th {
+  color: #74903c;
+  text-align: start;
+  font-size: 20px;
+  height: 30px;
+}
+
+tbody tr {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#book-list tr td {
+  height: 30px;
+}
+
+.button-delete {
+  background-color: #ff4b3e;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.btn-delete-style {
+  text-align: end;
+}
+
+.danger {
+  width: 400px;
+  height: 40px;
+  background-color: #ff4b3e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.succes {
+  width: 400px;
+  height: 40px;
+  background-color: #38b000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.deleted {
+  width: 400px;
+  height: 40px;
+  background-color: #fc7b28;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
